@@ -1,3 +1,25 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    line-height: 1.6;
+}
+
+header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #224499;
 }
